@@ -1,0 +1,22 @@
+{
+  "name": "clearcos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --detectOpenHandles",
+    "start": "node start.js",
+    "build": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.5.20",
+    "log4js": "^6.1.2"
+  },
+  "devDependencies": {
+    "jest": "^25.2.6",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
