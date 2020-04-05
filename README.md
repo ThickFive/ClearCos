@@ -8,7 +8,7 @@
 ## 用法  
 0. 下载或者 git clone 到本地
 1. 在 config.js 中填入 COS 的 AppId, SecretId, SecretKey
-2. npm install
+2. npm install (如果很慢可以换成淘宝镜像 npm install --registry=https://registry.npm.taobao.org)
 3. npm run start
 
 ## 目录结构
